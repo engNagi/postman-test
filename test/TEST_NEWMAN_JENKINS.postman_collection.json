@@ -18,7 +18,7 @@
 							"});",
 							"",
 							"pm.test(\"Body matches string\", function () {",
-							"    pm.expect(pm.response.text()).to.include(\"string_you_want_to_search\");",
+							"    pm.expect(pm.response.text()).to.include("sunt aut facere repellat");",
 							"});"
 						],
 						"type": "text/javascript"
