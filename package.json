@@ -1,0 +1,16 @@
+{
+  "name": "postman",
+  "version": "1.0.0",
+  "description": "project for storing postman test",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "api-tests-production": "newman run test/TEST_NEWMAN_JENKINS.postman_collection.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^4.5.0"
+  }
+}
