@@ -18,7 +18,7 @@
 							"});",
 							"",
 							"pm.test(\"Body matches string\", function () {",
-							"    pm.expect(pm.response.text()).to.include("sunt aut facere repellat");",
+							"    pm.expect(pm.response.text()).to.include(\"sunt aut facere repellat\");",
 							"});"
 						],
 						"type": "text/javascript"
